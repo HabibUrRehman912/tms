@@ -1,0 +1,34 @@
+# env
+.env
+
+# python
+__pycache__/
+*.pyc
+
+# logs
+*.log
+user_activity.log*
+front_activity.log*
+student_activity.log*
+verification_activity.log*
+
+
+# db
+db.sqlite3
+
+# uploads / generated
+media/
+staticfiles/
+
+# local data exports
+*.xlsx
+*.xls
+*.csv
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Private Key
+*.pem
